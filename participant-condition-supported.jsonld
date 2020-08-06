@@ -1,0 +1,491 @@
+{
+	"@context": "https://disability.openactive.io/",
+	"id": "https://disability.openactive.io/participant-condition-supported",
+	"title": "OpenActive Participant Condition Supported List",
+	"description": "A SKOS vocabulary for medical states and conditions affecting accessibility for physical activities",
+	"type": "ConceptScheme",
+	"license": "https://creativecommons.org/licenses/by/4.0/",
+	"concept": [{
+			"id": "https://disability.openactive.io/participant-condition-supported#bdbfabfa-0b4b-477b-a4bb-ac1072759316",
+			"identifier": "bdbfabfa-0b4b-477b-a4bb-ac1072759316",
+			"type": "Concept",
+			"prefLabel": "Amputation",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#f5046523-3f5e-47a9-964b-d547a936f1f8"
+			],
+			"narrower": [
+				"https://disability.openactive.io/participant-condition-supported#0357ef2f-dfbc-4296-bb5e-70eb8a878723",
+				"https://disability.openactive.io/participant-condition-supported#da0bdaeb-f6b3-4359-85b6-003e1542b0ce"
+			],
+			"notation": "amputation"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#8e79fad9-c6c7-4a23-9771-9f7d82812e99",
+			"identifier": "8e79fad9-c6c7-4a23-9771-9f7d82812e99",
+			"type": "Concept",
+			"prefLabel": "Antenatal Pregnancy Support",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#f2836357-e572-4d77-9d54-0bdb535e090c"
+			],
+			"notation": "antenatal-pregnancy-support"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#8c89ac7e-496a-4668-ac0e-1d41907e8418",
+			"identifier": "8c89ac7e-496a-4668-ac0e-1d41907e8418",
+			"type": "Concept",
+			"prefLabel": "Arthritis",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#be7a98c1-feb8-43d0-a871-ff208cd0c712"
+			],
+			"notation": "arthritis"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#3462c4df-7afa-4699-aa07-b527e4a89007",
+			"identifier": "3462c4df-7afa-4699-aa07-b527e4a89007",
+			"type": "Concept",
+			"prefLabel": "Autism Spectrum",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#801f0019-9f8d-4ba3-8a1b-8dbd2e5aeb7d"
+			],
+			"notation": "autism-spectrum"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#791940ff-ad22-444a-9c9e-8d8d91594eb5",
+			"identifier": "791940ff-ad22-444a-9c9e-8d8d91594eb5",
+			"type": "Concept",
+			"prefLabel": "Back Injury Recuperation",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#bb085a31-a5dc-4de0-bf81-5cd6c2951ff8"
+			],
+			"notation": "back-injury-recuperation"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#eef1a9c5-41cf-4fdb-9e47-51bde06eb259",
+			"identifier": "eef1a9c5-41cf-4fdb-9e47-51bde06eb259",
+			"type": "Concept",
+			"prefLabel": "Brain Injury",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#32d6e077-fca0-49b8-a7fb-24f479871325"
+			],
+			"notation": "brain-injury"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#147d54df-b02a-4bde-9b7f-41c6a71ff55f",
+			"identifier": "147d54df-b02a-4bde-9b7f-41c6a71ff55f",
+			"type": "Concept",
+			"prefLabel": "Breast Cancer Support",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#1350083b-5a70-4cd2-b1f0-0219d23c3d02"
+			],
+			"notation": "breast-cancer-support"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#f03b831f-753d-4f37-bd40-0e5892c3ac34",
+			"identifier": "f03b831f-753d-4f37-bd40-0e5892c3ac34",
+			"type": "Concept",
+			"prefLabel": "Breathing Impairment",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#be7a98c1-feb8-43d0-a871-ff208cd0c712"
+			],
+			"notation": "breathing-impairment"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#1350083b-5a70-4cd2-b1f0-0219d23c3d02",
+			"identifier": "1350083b-5a70-4cd2-b1f0-0219d23c3d02",
+			"type": "Concept",
+			"prefLabel": "Cancer Support",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#bb085a31-a5dc-4de0-bf81-5cd6c2951ff8"
+			],
+			"narrower": [
+				"https://disability.openactive.io/participant-condition-supported#147d54df-b02a-4bde-9b7f-41c6a71ff55f"
+			],
+			"notation": "cancer-support"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#ff9a09ed-fb5a-4a62-b4d7-0fa263aa631d",
+			"identifier": "ff9a09ed-fb5a-4a62-b4d7-0fa263aa631d",
+			"type": "Concept",
+			"prefLabel": "Cardiac Recuperation",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#bb085a31-a5dc-4de0-bf81-5cd6c2951ff8"
+			],
+			"notation": "cardiac-recuperation"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#afbca4f6-6e96-412a-ad86-4498b94640f5",
+			"identifier": "afbca4f6-6e96-412a-ad86-4498b94640f5",
+			"type": "Concept",
+			"prefLabel": "Cerebral Palsy",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#32d6e077-fca0-49b8-a7fb-24f479871325"
+			],
+			"notation": "cerebral-palsy"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#90acbdef-53e2-43e1-8f22-06bf7eab55e7",
+			"identifier": "90acbdef-53e2-43e1-8f22-06bf7eab55e7",
+			"type": "Concept",
+			"prefLabel": "Communication Needs",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#801f0019-9f8d-4ba3-8a1b-8dbd2e5aeb7d"
+			],
+			"narrower": [
+				"https://disability.openactive.io/participant-condition-supported#8fcd13d0-54a0-4437-b2cb-da60ac994927"
+			],
+			"notation": "communication-needs"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#5076e4b4-f371-452e-8756-0cd9d861cc30",
+			"identifier": "5076e4b4-f371-452e-8756-0cd9d861cc30",
+			"type": "Concept",
+			"prefLabel": "Dementia",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#32d6e077-fca0-49b8-a7fb-24f479871325"
+			],
+			"notation": "dementia"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#329d97f7-621e-471a-af3c-82d34e866ddf",
+			"identifier": "329d97f7-621e-471a-af3c-82d34e866ddf",
+			"type": "Concept",
+			"prefLabel": "Dexterity Impairment",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#be7a98c1-feb8-43d0-a871-ff208cd0c712"
+			],
+			"notation": "dexterity-impairment"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#9e9372ec-17bd-4e4f-8249-79624eda723e",
+			"identifier": "9e9372ec-17bd-4e4f-8249-79624eda723e",
+			"type": "Concept",
+			"prefLabel": "Dwarfism",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#3dcf4af8-34f4-4c30-ba4d-dd7a7bbd5234"
+			],
+			"notation": "dwarfism"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#1ee139a6-e6e2-4914-9989-2a084748a3e3",
+			"identifier": "1ee139a6-e6e2-4914-9989-2a084748a3e3",
+			"type": "Concept",
+			"prefLabel": "Epilepsy",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#32d6e077-fca0-49b8-a7fb-24f479871325"
+			],
+			"notation": "epilepsy"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#8e413a6e-6cd4-4239-bc84-6c7296c5586a",
+			"identifier": "8e413a6e-6cd4-4239-bc84-6c7296c5586a",
+			"type": "Concept",
+			"prefLabel": "Hearing Impairment",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#158889bc-749e-48ca-bd61-45529722d4d3"
+			],
+			"notation": "hearing-impairment"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#15497e76-3b89-418a-bca5-dbe79d5f363e",
+			"identifier": "15497e76-3b89-418a-bca5-dbe79d5f363e",
+			"type": "Concept",
+			"prefLabel": "Learning Difficulties",
+			"notation": "learning-difficulties",
+			"topConceptOf": "https://disability.openactive.io/participant-condition-supported"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#24b59fa6-6267-4841-8cc0-f3c8a322f00a",
+			"identifier": "24b59fa6-6267-4841-8cc0-f3c8a322f00a",
+			"type": "Concept",
+			"prefLabel": "Long-term Pain",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#be7a98c1-feb8-43d0-a871-ff208cd0c712"
+			],
+			"notation": "long-term-pain"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#da0bdaeb-f6b3-4359-85b6-003e1542b0ce",
+			"identifier": "da0bdaeb-f6b3-4359-85b6-003e1542b0ce",
+			"type": "Concept",
+			"prefLabel": "Lower-limb amputation",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#bdbfabfa-0b4b-477b-a4bb-ac1072759316"
+			],
+			"notation": "upper-limb-amputation"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#9c579c84-1225-4f2c-b9fa-0edc3d9ff7af",
+			"identifier": "9c579c84-1225-4f2c-b9fa-0edc3d9ff7af",
+			"type": "Concept",
+			"prefLabel": "Mental Health Needs",
+			"notation": "mental-health-needs",
+			"topConceptOf": "https://disability.openactive.io/participant-condition-supported"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#f5046523-3f5e-47a9-964b-d547a936f1f8",
+			"identifier": "f5046523-3f5e-47a9-964b-d547a936f1f8",
+			"type": "Concept",
+			"prefLabel": "Mobility Impairment",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#be7a98c1-feb8-43d0-a871-ff208cd0c712"
+			],
+			"narrower": [
+				"https://disability.openactive.io/participant-condition-supported#bdbfabfa-0b4b-477b-a4bb-ac1072759316",
+				"https://disability.openactive.io/participant-condition-supported#3dcf4af8-34f4-4c30-ba4d-dd7a7bbd5234",
+				"https://disability.openactive.io/participant-condition-supported#0e49594b-17fd-47e9-b645-feeabd0e8389",
+				"https://disability.openactive.io/participant-condition-supported#8848a5ba-af6e-41b1-9893-a1d9d44114ce"
+			],
+			"notation": "mobility-impairment"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#e57bbb1a-80c4-4f1d-b6d3-115dd1ef4900",
+			"identifier": "e57bbb1a-80c4-4f1d-b6d3-115dd1ef4900",
+			"type": "Concept",
+			"prefLabel": "Multiple Sclerosis",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#32d6e077-fca0-49b8-a7fb-24f479871325"
+			],
+			"notation": "multiple-sclerosis"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#32d6e077-fca0-49b8-a7fb-24f479871325",
+			"identifier": "32d6e077-fca0-49b8-a7fb-24f479871325",
+			"type": "Concept",
+			"prefLabel": "Neurological Impairment",
+			"narrower": [
+				"https://disability.openactive.io/participant-condition-supported#eef1a9c5-41cf-4fdb-9e47-51bde06eb259",
+				"https://disability.openactive.io/participant-condition-supported#afbca4f6-6e96-412a-ad86-4498b94640f5",
+				"https://disability.openactive.io/participant-condition-supported#5076e4b4-f371-452e-8756-0cd9d861cc30",
+				"https://disability.openactive.io/participant-condition-supported#1ee139a6-e6e2-4914-9989-2a084748a3e3",
+				"https://disability.openactive.io/participant-condition-supported#e57bbb1a-80c4-4f1d-b6d3-115dd1ef4900",
+				"https://disability.openactive.io/participant-condition-supported#4099c6b2-abe7-4a8b-bff8-464a1746d210",
+				"https://disability.openactive.io/participant-condition-supported#d50ff0b8-ba77-49cf-8465-0a5ef0fe3674"
+			],
+			"notation": "neurological-impairment",
+			"topConceptOf": "https://disability.openactive.io/participant-condition-supported"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#f6ae4d81-4a55-4a73-ad7d-7ba833198bcc",
+			"identifier": "f6ae4d81-4a55-4a73-ad7d-7ba833198bcc",
+			"type": "Concept",
+			"prefLabel": "Osteoporosis",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#be7a98c1-feb8-43d0-a871-ff208cd0c712"
+			],
+			"notation": "osteoporosis"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#09208b1c-1a2f-4c78-86d8-6c31c497b8fb",
+			"identifier": "09208b1c-1a2f-4c78-86d8-6c31c497b8fb",
+			"type": "Concept",
+			"prefLabel": "Overweight/Obesity",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#be7a98c1-feb8-43d0-a871-ff208cd0c712"
+			],
+			"notation": "overweight-obesity"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#4099c6b2-abe7-4a8b-bff8-464a1746d210",
+			"identifier": "4099c6b2-abe7-4a8b-bff8-464a1746d210",
+			"type": "Concept",
+			"prefLabel": "Parkinson's Disease",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#32d6e077-fca0-49b8-a7fb-24f479871325"
+			],
+			"notation": "parkinsons-disease"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#be7a98c1-feb8-43d0-a871-ff208cd0c712",
+			"identifier": "be7a98c1-feb8-43d0-a871-ff208cd0c712",
+			"type": "Concept",
+			"prefLabel": "Physical Impairment",
+			"narrower": [
+				"https://disability.openactive.io/participant-condition-supported#8c89ac7e-496a-4668-ac0e-1d41907e8418",
+				"https://disability.openactive.io/participant-condition-supported#f03b831f-753d-4f37-bd40-0e5892c3ac34",
+				"https://disability.openactive.io/participant-condition-supported#329d97f7-621e-471a-af3c-82d34e866ddf",
+				"https://disability.openactive.io/participant-condition-supported#24b59fa6-6267-4841-8cc0-f3c8a322f00a",
+				"https://disability.openactive.io/participant-condition-supported#f5046523-3f5e-47a9-964b-d547a936f1f8",
+				"https://disability.openactive.io/participant-condition-supported#f6ae4d81-4a55-4a73-ad7d-7ba833198bcc",
+				"https://disability.openactive.io/participant-condition-supported#09208b1c-1a2f-4c78-86d8-6c31c497b8fb",
+				"https://disability.openactive.io/participant-condition-supported#bb085a31-a5dc-4de0-bf81-5cd6c2951ff8",
+				"https://disability.openactive.io/participant-condition-supported#b55463eb-1de8-4c04-ada9-314c97d3babf"
+			],
+			"notation": "physical-impairment",
+			"topConceptOf": "https://disability.openactive.io/participant-condition-supported"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#e2f6e425-66b0-4c74-b843-d3dbc634b996",
+			"identifier": "e2f6e425-66b0-4c74-b843-d3dbc634b996",
+			"type": "Concept",
+			"prefLabel": "Post-surgical Recuperation",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#bb085a31-a5dc-4de0-bf81-5cd6c2951ff8"
+			],
+			"notation": "post-surgical-recuperation"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#a51fed7d-d7a6-4c90-9e28-735fe06667b0",
+			"identifier": "a51fed7d-d7a6-4c90-9e28-735fe06667b0",
+			"type": "Concept",
+			"prefLabel": "Postnatal Pregnancy Support",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#f2836357-e572-4d77-9d54-0bdb535e090c"
+			],
+			"notation": "postnatal-pregnancy-support"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#f2836357-e572-4d77-9d54-0bdb535e090c",
+			"identifier": "f2836357-e572-4d77-9d54-0bdb535e090c",
+			"type": "Concept",
+			"prefLabel": "Pregnancy Support",
+			"narrower": [
+				"https://disability.openactive.io/participant-condition-supported#8e79fad9-c6c7-4a23-9771-9f7d82812e99",
+				"https://disability.openactive.io/participant-condition-supported#a51fed7d-d7a6-4c90-9e28-735fe06667b0"
+			],
+			"notation": "pregnancy-support",
+			"topConceptOf": "https://disability.openactive.io/participant-condition-supported"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#a9db9be7-c1a8-4551-afa9-21adb1227365",
+			"identifier": "a9db9be7-c1a8-4551-afa9-21adb1227365",
+			"type": "Concept",
+			"prefLabel": "Profound and Multiple Learning Disabilities (PMLD)",
+			"notation": "profound-and-multiple-learning-disabilities-pmld",
+			"topConceptOf": "https://disability.openactive.io/participant-condition-supported"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#bb085a31-a5dc-4de0-bf81-5cd6c2951ff8",
+			"identifier": "bb085a31-a5dc-4de0-bf81-5cd6c2951ff8",
+			"type": "Concept",
+			"prefLabel": "Recuperative",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#be7a98c1-feb8-43d0-a871-ff208cd0c712"
+			],
+			"narrower": [
+				"https://disability.openactive.io/participant-condition-supported#ff9a09ed-fb5a-4a62-b4d7-0fa263aa631d",
+				"https://disability.openactive.io/participant-condition-supported#791940ff-ad22-444a-9c9e-8d8d91594eb5",
+				"https://disability.openactive.io/participant-condition-supported#1350083b-5a70-4cd2-b1f0-0219d23c3d02",
+				"https://disability.openactive.io/participant-condition-supported#e2f6e425-66b0-4c74-b843-d3dbc634b996"
+			],
+			"notation": "recuperative"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#3dcf4af8-34f4-4c30-ba4d-dd7a7bbd5234",
+			"identifier": "3dcf4af8-34f4-4c30-ba4d-dd7a7bbd5234",
+			"type": "Concept",
+			"prefLabel": "Restricted Growth",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#f5046523-3f5e-47a9-964b-d547a936f1f8"
+			],
+			"narrower": [
+				"https://disability.openactive.io/participant-condition-supported#9e9372ec-17bd-4e4f-8249-79624eda723e"
+			],
+			"notation": "restricted-growth"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#158889bc-749e-48ca-bd61-45529722d4d3",
+			"identifier": "158889bc-749e-48ca-bd61-45529722d4d3",
+			"type": "Concept",
+			"prefLabel": "Sensory Impairment",
+			"narrower": [
+				"https://disability.openactive.io/participant-condition-supported#8e413a6e-6cd4-4239-bc84-6c7296c5586a",
+				"https://disability.openactive.io/participant-condition-supported#5446e84a-88fa-4cf8-b351-cbc11ca8f9bc"
+			],
+			"notation": "sensory-impairment",
+			"topConceptOf": "https://disability.openactive.io/participant-condition-supported"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#d3dc83d2-7264-4791-9111-5998f17b67b8",
+			"identifier": "d3dc83d2-7264-4791-9111-5998f17b67b8",
+			"type": "Concept",
+			"prefLabel": "Sensory Processing Disorder",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#801f0019-9f8d-4ba3-8a1b-8dbd2e5aeb7d"
+			],
+			"notation": "sensory-processing-disorder"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#801f0019-9f8d-4ba3-8a1b-8dbd2e5aeb7d",
+			"identifier": "801f0019-9f8d-4ba3-8a1b-8dbd2e5aeb7d",
+			"type": "Concept",
+			"prefLabel": "Social and/or Behavioural Needs",
+			"narrower": [
+				"https://disability.openactive.io/participant-condition-supported#3462c4df-7afa-4699-aa07-b527e4a89007",
+				"https://disability.openactive.io/participant-condition-supported#90acbdef-53e2-43e1-8f22-06bf7eab55e7",
+				"https://disability.openactive.io/participant-condition-supported#d3dc83d2-7264-4791-9111-5998f17b67b8"
+			],
+			"notation": "social-and-or-behavioural-needs",
+			"topConceptOf": "https://disability.openactive.io/participant-condition-supported"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#8fcd13d0-54a0-4437-b2cb-da60ac994927",
+			"identifier": "8fcd13d0-54a0-4437-b2cb-da60ac994927",
+			"type": "Concept",
+			"prefLabel": "Speech Impairment",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#90acbdef-53e2-43e1-8f22-06bf7eab55e7"
+			],
+			"notation": "speech-impairment"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#b55463eb-1de8-4c04-ada9-314c97d3babf",
+			"identifier": "b55463eb-1de8-4c04-ada9-314c97d3babf",
+			"type": "Concept",
+			"prefLabel": "Stamina Impairment",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#be7a98c1-feb8-43d0-a871-ff208cd0c712"
+			],
+			"notation": "stamina-impairment"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#d50ff0b8-ba77-49cf-8465-0a5ef0fe3674",
+			"identifier": "d50ff0b8-ba77-49cf-8465-0a5ef0fe3674",
+			"type": "Concept",
+			"prefLabel": "Stroke",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#32d6e077-fca0-49b8-a7fb-24f479871325"
+			],
+			"notation": "stroke"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#0e49594b-17fd-47e9-b645-feeabd0e8389",
+			"identifier": "0e49594b-17fd-47e9-b645-feeabd0e8389",
+			"type": "Concept",
+			"prefLabel": "Support Required",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#f5046523-3f5e-47a9-964b-d547a936f1f8"
+			],
+			"notation": "support-required"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#0357ef2f-dfbc-4296-bb5e-70eb8a878723",
+			"identifier": "0357ef2f-dfbc-4296-bb5e-70eb8a878723",
+			"type": "Concept",
+			"prefLabel": "Upper-limb amputation",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#bdbfabfa-0b4b-477b-a4bb-ac1072759316"
+			],
+			"notation": "amputation"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#5446e84a-88fa-4cf8-b351-cbc11ca8f9bc",
+			"identifier": "5446e84a-88fa-4cf8-b351-cbc11ca8f9bc",
+			"type": "Concept",
+			"prefLabel": "Visual Impairment",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#158889bc-749e-48ca-bd61-45529722d4d3"
+			],
+			"notation": "visual-impairment"
+		},
+		{
+			"id": "https://disability.openactive.io/participant-condition-supported#8848a5ba-af6e-41b1-9893-a1d9d44114ce",
+			"identifier": "8848a5ba-af6e-41b1-9893-a1d9d44114ce",
+			"type": "Concept",
+			"prefLabel": "Wheelchair Required",
+			"broader": [
+				"https://disability.openactive.io/participant-condition-supported#f5046523-3f5e-47a9-964b-d547a936f1f8"
+			],
+			"notation": "mobility-impairment"
+		}
+	]
+}
