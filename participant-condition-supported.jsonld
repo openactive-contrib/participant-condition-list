@@ -179,11 +179,11 @@
 			"id": "https://disability.openactive.io/participant-condition-supported#8e413a6e-6cd4-4239-bc84-6c7296c5586a",
 			"identifier": "8e413a6e-6cd4-4239-bc84-6c7296c5586a",
 			"type": "Concept",
-			"prefLabel": "Hearing Impairment",
+			"prefLabel": "Deafness",
 			"broader": [
 				"https://disability.openactive.io/participant-condition-supported#158889bc-749e-48ca-bd61-45529722d4d3"
 			],
-			"notation": "hearing-impairment"
+			"notation": "deafness"
 		},
 		{
 			"id": "https://disability.openactive.io/participant-condition-supported#15497e76-3b89-418a-bca5-dbe79d5f363e",
